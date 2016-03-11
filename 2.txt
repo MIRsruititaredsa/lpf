@@ -1,0 +1,10 @@
+#include<stdio.h>
+main()
+{
+int time=30;
+int sum=3000000;
+double p=0.03;
+double money;
+money=sum/(1+p*time);
+printf("投入的本金:%lf\n",money);
+}

@@ -1,0 +1,13 @@
+#include<stdio.h>
+main(){
+double money,time,p,sum;
+printf("请输入本金:");
+scanf("%lf",&money);
+printf("请输入存年数:");
+scanf("%lf",&time);
+printf("请输入利率:");
+scanf("%lf",&p);
+sum=money*time*p+money;
+printf("\n");
+printf("本利和为%lf\n",sum);
+}
